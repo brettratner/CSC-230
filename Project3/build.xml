@@ -1,0 +1,29 @@
+<project name="Project3" default="run" basedir=".">
+  <!-- Compiles the java code  -->
+  <target name="compile">
+    <javac srcdir = "." includeantruntime="false"/>
+  </target>
+  
+  <!-- Deletes the existing .class file-->
+  <target name="clean">
+    <delete>
+    	<fileset dir="." includes ="**/*.class, *.*~, RatnerProject3.jar"/>
+    </delete>
+    <delete dir="META-INF"/>
+  </target>
+  
+  <!-- jars the appropiate files into a jar file named RatnerProject2.jar-->
+  <target name="jar">
+      <jar destfile="RatnerProject3.jar" basedir="." includes="edu/tcnj/csc230/, jsjf/,build.xml"/>
+  </target>
+  
+  <!-- Runs all code -->
+  <target name="run" depends="who, compile">
+    <java classpath= "." classname="edu.tcnj.csc230.Driver" fork="yes"/>
+  </target>
+  
+  <!-- Writes authors  -->
+  <target name="who">
+    <echo message="Author: Brett Ratner"/>
+  </target>
+</project>

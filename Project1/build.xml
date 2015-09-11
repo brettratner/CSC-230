@@ -1,0 +1,30 @@
+<project name="Project1" default="output">
+
+    <target name="clean">
+        <delete file="Application.class" />
+        <delete file="ZipCodeLocation.class" />
+        <delete file="zipcodes.txt" />
+        <delete file="zipout.txt" />
+        <delete dir="META-INF"/>
+    </target>
+
+    <target name="compile">
+        <javac srcdir="src" destdir="./"/>
+    </target>
+
+    <target name="run" depends="compile,getInput">
+        <java classpath="./" classname="Application"/>
+    </target>
+
+    <target name="getInput">
+        <get src="http://www.tcnj.edu/~mmmartin/Courses/CSC250/DataSources/zipcodes.txt" dest="zipcodes.txt" />
+    </target>
+
+    <target name="output" depends="run">
+        <concat>
+            <fileset dir="./" includes="zipout.txt" />
+        </concat>
+    </target>
+
+</project>
+

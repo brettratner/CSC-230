@@ -1,0 +1,36 @@
+<project name="Project2" default="compile">
+
+
+<!-- Compiles the program -->
+	<target name="compile" depends="clean">
+		<javac srcdir="."/>
+	</target>
+	
+<!-- delets the specified files from the program -->
+        <target name="clean">
+                <delete>
+                        <fileset defaultexcludes="no" dir="." includes="**/*.class/" />
+                        <fileset defaultexcludes="no" dir="." includes="**/*.*~/" />
+                        <fileset defaultexcludes="no" dir="." includes="**/*.txt/" />
+                        <fileset defaultexcludes="no" dir="." includes="**/*.jar/" />
+                </delete>
+                <delete dir="META-INF"/>
+        </target>
+		
+<!-- jars the appropiate files into a jar file named RatnerProject2.jar-->
+	<target name="jar">
+		<jar destfile="RatnerProject2.jar" basedir="." includes="Driver.java,Vehicle.java,Simulator.java,jsjf/,build.xml"/>
+	</target>
+
+<!-- display the name of the author of the program -->
+
+	<target name="author">
+		<echo message= "Brett Ratner"/>
+	</target>
+    
+<!-- this runs the projgram as well as cleans it, and displays the authors since it depends on both-->
+    <target name= "run" depends="compile , author">
+		<java classname="Driver" classpath="."/>
+	</target>
+	
+</project>
