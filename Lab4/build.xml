@@ -1,0 +1,22 @@
+<project name="Lab 4">
+
+    <target name="compile" depends="clean">
+        <javac srcdir="."/>
+    </target>
+
+    <target name="clean">
+        <delete includeemptydirs="true" failonerror="false">
+            <fileset defaultexcludes="no" dir="META-INF" includes="**"/>
+            <fileset defaultexcludes="no" dir="." includes="**/*~,**/*.class"/>
+        </delete>
+    </target>
+
+    <target name="authors">
+        <echo message="Dylan Wulf and Brett Ratner"/>
+    </target>
+
+    <target name="run" depends="authors, compile">
+        <java classpath="." classname="edu.tcnj.csc230.Driver" />
+    </target>
+
+</project>

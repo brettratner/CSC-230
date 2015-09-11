@@ -1,0 +1,33 @@
+<project name="Lab 5" default="run" basedir=".">
+
+    <target name="compile" depends="clean">
+        <javac srcdir="." classpath="." includeantruntime="false"/>
+    </target>
+
+	<target name="clean">
+		<delete>
+			<fileset dir="." includes="**/*.class,*.*~,"/>
+            <fileset dir="." includes="**/*.jar/"/>
+		</delete>
+		<delete dir="META-INF"/>
+	</target>
+	
+    <target name="run" depends="authors,compile">
+		<java fork="true" classname="edu.tcnj.csc230.Driver" classpath="."/>
+	</target>
+		
+	<target name="authors">
+		<echo message="Brett Ratner , Frederick Zhao"/>
+	</target>
+	
+	
+	<target name="jar">
+		<jar destfile="lab5.jar" basedir="." includes="jsjf/,edu/tcnj/csc230/,build.xml" excludes="**/*.class,**/*.*~"/>
+
+        
+	</target>
+			
+                                
+                                
+                               	
+</project>

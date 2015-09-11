@@ -1,0 +1,51 @@
+<project name="Lab1" default="compileAll">
+
+    <target name="clean" depends="cleanAll">
+        
+    </target>
+
+    <target name="cleanAll">
+        <delete dir="build"/>
+        <delete dir="META-INF"/>
+    </target>
+
+    <target name="compile" depends="compileAll">
+        
+    </target>
+
+    <target name="compileAll">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar" depends="compileAll">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/Brett_Dylan_Sam_Lab1.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="Lab1NumberBase"/>
+            </manifest>
+        </jar>
+    </target>
+    
+    <target name="dist" depends="jar">
+        <mkdir dir="dist"/>
+        <copy file="build/jar/Brett_Dylan_Sam_Lab1.jar" preservelastmodified="true" todir="dist"/>
+    </target>
+
+    <target name="runAll" depends="compileAll, runpart1, runpart2">
+    </target>
+
+    <target name="runpart1">
+        <java classpath="build/classes" classname="Lab1NumberBase" />
+    </target>
+
+    <target name="runpart2">
+        <java classpath="build/classes" classname="Lab1Ackermann" />
+    </target>
+
+    <target name="runjar" depends="jar">
+        <java jar="build/jar/Brett_Dylan_Sam_Lab1.jar" fork="true"/>
+    </target>
+
+</project>
+

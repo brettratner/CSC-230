@@ -1,0 +1,44 @@
+<project name="Lab2" default="run">
+
+    <target name="clean">
+        <delete dir="build"/>
+        <delete dir="META-INF"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/Brett_Dylan_Sam_Lab2.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="FlightSorter"/>
+            </manifest>
+        </jar>
+    </target>
+    
+    <target name="dist" depends="jar">
+        <mkdir dir="dist"/>
+        <copy file="build/jar/Brett_Dylan_Sam_Lab2.jar" preservelastmodified="true" todir="dist"/>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classpath="build/classes" classname="FlightSorter"/>
+    </target>
+
+    <target name="runpart1" depends="compile">
+        <java classpath="build/classes" classname="FlightSorter" />
+    </target>
+
+    <target name="runpart2">
+        <echo message="The instructions said to include a 'runpart2' target, but there was only one part in the lab."/>
+    </target>
+
+    <target name="runjar" depends="jar">
+        <java jar="build/jar/Brett_Dylan_Sam_Lab2.jar" fork="true"/>
+    </target>
+
+</project>
+

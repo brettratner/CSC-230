@@ -1,0 +1,25 @@
+<project name="lab06" default="run" basedir=".">
+  <!-- Compiles the java code  -->
+  <target name="compile" depends="clean">
+    <javac srcdir = "." includeantruntime="false"/>
+  </target>
+  
+  <!-- Deletes the existing .class file-->
+  <target name="clean">
+    <delete>
+    	<fileset dir="." includes ="**/*.class"/>
+      <fileset dir="." includes ="**/*.*~/"/>
+    </delete>
+    <delete dir="META-INF"/>
+  </target>
+  
+  <!-- Runs all code -->	
+  <target name="run" depends="authors, compile">
+    <java classpath= "." classname="edu.tcnj.csc230.Driver" fork="yes"/>
+  </target>
+  
+  <!-- Writes authors  -->
+  <target name="authors">
+    <echo message="Authors: Brett Ratner and Hank Harvey"/>
+  </target>
+</project>

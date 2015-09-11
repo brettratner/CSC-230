@@ -1,0 +1,19 @@
+<project name="Lab03" default="compile">
+<!-- delets the specified files from our program -->
+    <target name="clean">
+        <delete file="*.class" />
+        <delete file="*.*~" />
+        <delete dir="META-INF"/>
+    </target>
+
+<!-- Compiles our program -->
+    <target name="compile" depends="clean">
+        <javac srcdir="." includeantruntime="false"/>
+    </target>
+    
+<!-- display names of authors of program -->
+<target name="author">
+    <echo message="Brett Ratner and Christian Hansen"/>
+</target>
+
+</project>

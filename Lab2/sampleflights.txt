@@ -1,0 +1,61 @@
+VOZ849	B738	Melbourne Tullamarine (YMML / MEL)	Sydney (YSSY / SYD)	Thu 02:22PM EST	Thu 03:26PM EST	01:04
+MAS185	B738	Kuala Lumpur Int'l (WMKK / KUL)	Bandaranaike Int'l (VCBI / CMB)	Thu 11:22AM MYT	Thu 11:57AM IST	03:05
+CHH7608	B738	Shanghai Hongqiao Int'l (ZSSS / SHA)	Beijing Capital Int'l (ZBAA / PEK)	Thu 11:21AM CST	Thu 01:26PM CST	02:05
+DAL1345	B738	Salt Lake City Intl (KSLC)	Dallas/Fort Worth Intl (KDFW)	Wed 08:21PM MST	Wed 11:13PM CST	02:09
+JTA558	B734	Miyako (ROMY / MMY)	Naha (ROAH / OKA)	Thu 12:21PM JST	Thu 12:45PM JST	00:35
+QFA649	B738	Cairns Int'l (YBCS / CNS)	Brisbane (YBBN / BNE)	Thu 01:20PM EST	Thu 03:04PM EST	01:44
+GLO9230	B738	Pinto Martins Int'l (SBFZ / FOR)	Eduardo Gomes Int'l (SBEG / MAO)	Thu 12:20AM BRT	Thu 01:30AM AMT	03:14
+QFA146	B738	Auckland (NZAA / AKL)	Sydney (YSSY / SYD)	Thu 04:20PM NZDT	Thu 05:30PM EST	03:25
+CHH7343	B738	Guangzhou Baiyun Int'l (ZGGG / CAN)	Nanchang Changbei Int'l (ZSCN / KHN)	Thu 11:20AM CST	Thu 12:15PM CST	01:10
+CSH9190	B737	Jinzhou (ZYJZ / JNZ)	Shanghai Pudong Int'l (ZSPD / PVG)	Thu 11:20AM CST	Thu 01:00PM CST	01:45
+CES2492	B738	Wenzhou Int'l (ZSWZ / WNZ)	Guangzhou Baiyun Int'l (ZGGG / CAN)	Thu 11:19AM CST	Thu 12:00PM CST	01:30
+DAL1736	B738	Hartsfield-Jackson Intl (KATL)	Port Columbus Intl (KCMH)	Wed 10:19PM EST	Wed 11:18PM EST	01:18
+DAL2355	B739	Hartsfield-Jackson Intl (KATL)	Los Angeles Intl (KLAX)	Wed 10:19PM EST	Wed 11:17PM PST	04:17
+VOZ1421	B738	Sydney (YSSY / SYD)	Cairns Int'l (YBCS / CNS)	Thu 02:19PM EST	Thu 04:05PM EST	02:46
+AXB681	B738	Singapore Changi (WSSS / SIN)	Tiruchirapalli (VOTR / TRZ)	Thu 11:18AM SGT	Thu 12:23PM IST	03:35
+UAL1598	B739	San Francisco Intl (KSFO)	Los Angeles Intl (KLAX)	Wed 07:18PM PST	Wed 08:24PM PST	01:06
+QFA438	B738	Melbourne Tullamarine (YMML / MEL)	Sydney (YSSY / SYD)	Thu 02:18PM EST	Thu 03:05PM EST	01:02
+LNI132	B739	Kuala Namu International (WIMM / KNO)	Penang Int'l (WMKP / PEN)	Thu 10:18AM ICT	Thu 11:20AM MYT	00:30
+CHH7848	B738	Xi'an Xianyang Int'l (ZLXY / XIY)	Yinchuan Helanshan (ZLIC / INC)	Thu 11:18AM CST	Thu 11:53AM CST	00:50
+QFA919	B738	Karratha (YPKA / KTA)	Perth Int'l (YPPH / PER)	Thu 11:18AM WST	Thu 01:01PM WST	01:44
+KAL716	B739	Narita Int'l (RJAA / NRT)	Gimhae Int'l (RKPK / PUS)	Thu 12:53PM JST	Thu 03:19PM KST	02:41
+SWA602	B737	San Francisco Intl (KSFO)	John Wayne Arpt (KSNA)	Wed 07:53PM PST	Wed 08:55PM PST	00:55
+CSN6356	B738	Haikou Meilan Int'l (ZJHK / HAK)	Zhengzhou Xinzheng Int'l (ZHCC / CGO)	Thu 11:53AM CST	Thu 02:01PM CST	02:23
+MAS2507	B738	Kuching Int'l (WBGG / KCH)	Kuala Lumpur Int'l (WMKK / KUL)	Thu 11:52AM MYT	Thu 12:12PM MYT	01:18
+AMX784	B738	Don Miguel Hidalgo y Costilla Int'l (MMGL / GDL)	Los Angeles Intl (KLAX)	Wed 09:52PM CST	Wed 10:46PM PST	03:02
+SWA2075	B738	Los Angeles Intl (KLAX)	Kansas City Intl (KMCI)	Wed 07:52PM PST	Thu 12:35AM CST	02:45
+CDG4623	B738	Qingdao Liuting Int'l (ZSQD / TAO)	Dalian Zhoushuizi Int'l (ZYTL / DLC)	Thu 11:52AM CST	Thu 12:33PM CST	00:30
+CDG4853	B738	Yantai Laishan (ZSYT / YNT)	Beijing Capital Int'l (ZBAA / PEK)	Thu 11:52AM CST	Thu 01:01PM CST	00:50
+VOZ229	B738	Melbourne Tullamarine (YMML / MEL)	Adelaide Int'l (YPAD / ADL)	Thu 02:52PM EST	Thu 03:22PM CST	01:04
+CDG4923	B738	Wenzhou Int'l (ZSWZ / WNZ)	Jinan Yaoqiang (ZSJN / TNA)	Thu 11:51AM CST	Thu 01:21PM CST	01:30
+ASA469	B738	Los Angeles Intl (KLAX)	Seattle-Tacoma Intl (KSEA)	Wed 07:51PM PST	Wed 09:56PM PST	02:05
+VOZ1117	B738	Brisbane (YBBN / BNE)	Proserpine / Whitsunday Coast (YBPN / PPP)	Thu 01:51PM EST	Thu 03:08PM EST	01:17
+CCA1283	B733	Beijing Capital Int'l (ZBAA / PEK)	Ulanhot (ZBUL / HLH)	Thu 11:51AM CST	Thu 01:07PM CST	01:30
+WJA111	B737	Edmonton Int'l (CYEG)	Abbotsford Int'l (CYXX)	Wed 08:51PM MST	Wed 08:37PM PST	01:18
+GIA724	B738	Soekarno-Hatta Int'l (WIII / CGK)	Perth Int'l (YPPH / PER)	Thu 10:51AM WIB	Thu 03:54PM WST	03:53
+CHH7872	B738	Shenzhen Bao'an Int'l (ZGSZ / SZX)	Xi'an Xianyang Int'l (ZLXY / XIY)	Thu 11:51AM CST	Thu 02:06PM CST	02:30
+JEX1786	B738	Oita (RJFO / OIT)	Tokyo Int'l (Haneda) (RJTT / HND)	Thu 12:51PM JST	Thu 01:49PM JST	01:15
+UAL1700	B738	Denver Intl (KDEN)	Austin-Bergstrom Intl (KAUS)	Wed 08:51PM MST	Wed 11:18PM CST	01:38
+JEX1845	B738	Tokyo Int'l (Haneda) (RJTT / HND)	Nagasaki (RJFU / NGS)	Thu 12:51PM JST	Thu 02:34PM JST	01:55
+JEX3054	B738	Fukuoka (RJFF / FUK)	Narita Int'l (RJAA / NRT)	Thu 12:51PM JST	Thu 01:58PM JST	01:30
+AAL1458	B738	Miami Intl (KMIA)	Raleigh-Durham Intl (KRDU)	Wed 10:51PM EST	Thu 12:28AM EST	01:37
+ASA469	B738	Los Angeles Intl (KLAX)	Seattle-Tacoma Intl (KSEA)	Wed 07:51PM PST	Wed 09:56PM PST	02:05
+CDG4923	B738	Wenzhou Int'l (ZSWZ / WNZ)	Jinan Yaoqiang (ZSJN / TNA)	Thu 11:51AM CST	Thu 01:21PM CST	01:30
+VOZ1117	B738	Brisbane (YBBN / BNE)	Proserpine / Whitsunday Coast (YBPN / PPP)	Thu 01:51PM EST	Thu 03:08PM EST	01:17
+WJA111	B737	Edmonton Int'l (CYEG)	Abbotsford Int'l (CYXX)	Wed 08:51PM MST	Wed 08:37PM PST	01:18
+CHH7872	B738	Shenzhen Bao'an Int'l (ZGSZ / SZX)	Xi'an Xianyang Int'l (ZLXY / XIY)	Thu 11:51AM CST	Thu 02:06PM CST	02:30
+JEX1845	B738	Tokyo Int'l (Haneda) (RJTT / HND)	Nagasaki (RJFU / NGS)	Thu 12:51PM JST	Thu 02:34PM JST	01:55
+CSN6920	B737	Xi'an Xianyang Int'l (ZLXY / XIY)	Urumqi Diwopu Int'l (ZWWW / URC)	Thu 11:50AM CST	Thu 03:07PM CST	03:22
+CHH7279	B738	Beijing Capital Int'l (ZBAA / PEK)	Sanya Phoenix Int'l (ZJSY / SYX)	Thu 11:50AM CST	Thu 03:35PM CST	04:00
+AAL2378	B738	Miami Intl (KMIA)	Tampa Intl (KTPA)	Wed 10:50PM EST	Wed 11:26PM EST	00:36
+CHH7325	B738	Taiyuan Wusu (ZBYN / TYN)	Shenzhen Bao'an Int'l (ZGSZ / SZX)	Thu 11:50AM CST	Thu 02:10PM CST	02:35
+CSN3514	B738	Nanjing Lukou Int'l (ZSNJ / NKG)	Guangzhou Baiyun Int'l (ZGGG / CAN)	Thu 11:50AM CST	Thu 01:43PM CST	02:06
+SWA616	B737	Phoenix Sky Harbor Intl (KPHX)	San Jose Int'l (KSJC)	Wed 08:49PM MST	Wed 09:27PM PST	01:35
+SWA647	B733	Seattle-Tacoma Intl (KSEA)	Metropolitan Oakland Intl (KOAK)	Wed 07:49PM PST	Wed 09:32PM PST	01:46
+SWA2614	B737	Denver Intl (KDEN)	Tulsa Intl (KTUL)	Wed 08:49PM MST	Wed 11:01PM CST	01:11
+CSN6589	B737	Wuhan Tianhe (ZHHH / WUH)	(ENH)	Thu 11:49AM CST	Thu 04:36AM UTC	01:00
+CSZ9550	B738	Guangzhou Baiyun Int'l (ZGGG / CAN)	Wuxi (ZSWX / WUX)	Thu 11:49AM CST	Thu 01:30PM CST	01:55
+CSN6973	B737	Urumqi Diwopu Int'l (ZWWW / URC)	Shanghai Hongqiao Int'l (ZSSS / SHA)	Thu 11:49AM CST	Thu 03:52PM CST	04:18
+UAL1537	B739	Denver Intl (KDEN)	Chicago O'Hare Intl (KORD)	Wed 08:49PM MST	Wed 11:46PM CST	02:06
+SWA55	B735	William P Hobby (KHOU)	Corpus Christi Intl (KCRP)	Wed 09:49PM CST	Wed 10:22PM CST	00:33
+
